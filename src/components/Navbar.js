@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaChevronDown } from "react-icons/fa"; 
+// import { FaChevronDown } from "react-icons/fa"; 
 import RG_Logo from "./../assets/RG_logo.jpeg";
 
 function Navbar() {

@@ -28,7 +28,7 @@ function ImageProcessing() {
       <div className="container py-5">
         <div className="row align-items-center">
           <div className="col-md-6" data-aos="fade-right">
-            <img src={imageProcess} alt="Image Processing" className="img-fluid rounded shadow" />
+            <img src={imageProcess} alt="ImageProcessing_image" className="img-fluid rounded shadow" />
           </div>
           <div className="col-md-6" data-aos="fade-left">
             <h2 className="mb-3 brand-primary">Overview</h2>

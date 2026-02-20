@@ -1,0 +1,41 @@
+.ticker-wrapper {
+  overflow: hidden;
+  background: #f8f9fc;
+  padding: 20px 0;
+}
+
+.ticker {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 40px;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #0056ff;
+}
+
+.ticker-icon {
+  font-size: 22px;
+}
+/* 
+.ticker-wrapper:hover .ticker {
+  animation-play-state: paused;
+}
+ */
+
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

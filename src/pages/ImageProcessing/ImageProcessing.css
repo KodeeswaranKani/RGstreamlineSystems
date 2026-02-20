@@ -1,0 +1,53 @@
+/* BRAND COLORS */
+.brand-primary {
+  color: #509ec5;
+}
+.brand-secondary {
+  color: #697980;
+}
+
+/* HERO */
+.img-hero {
+  background: url("../../assets/image_Processing_banner.jpeg") center/cover no-repeat;
+  height: 55vh;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(80, 158, 197, 0.65);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* LIST */
+.img-list {
+  list-style: inside;
+  font-size: 1rem;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.img-list li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* Benefit Cards */
+.benefit-card {
+  border-radius: 10px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.07);
+  transition: 0.4s;
+}
+
+.benefit-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 45px rgba(0,0,0,0.15);
+}
+
+/* CTA */
+.cta-img {
+  background: linear-gradient(90deg, #509ec5, #697980);
+}
